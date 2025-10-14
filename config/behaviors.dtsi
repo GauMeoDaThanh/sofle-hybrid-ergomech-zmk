@@ -1,0 +1,103 @@
+/ {
+    macros {
+        prvwd: prvwd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LEFT)>;
+        };
+        
+        nxtwd: nxtwd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(RIGHT)>;
+        };
+        
+        lstrt: lstrt {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp HOME>;
+        };
+        
+        lend: lend {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp END>;
+        };
+        
+        wdesk_l: wdesk_l {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(LC(LEFT))>;
+        };
+        
+        wdesk_r: wdesk_r {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(LC(RIGHT))>;
+        };
+        
+        wtab: wtab {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(TAB)>;
+        };
+        
+        wnewdesk: wnewdesk {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(LC(D))>;
+        };
+        
+        wdeldesk: wdeldesk {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(LC(F4))>;
+        };
+    };
+
+    combos {
+        compatible = "zmk,combos";
+        
+        combo_esc {
+            timeout-ms = <50>;
+            key-positions = <0 1>;
+            bindings = <&kp ESC>;
+        };
+        
+        combo_equal {
+            timeout-ms = <50>;
+            key-positions = <19 20>;
+            bindings = <&kp EQUAL>;
+        };
+        
+        combo_left_brace {
+            timeout-ms = <50>;
+            key-positions = <15 16>;
+            bindings = <&kp LBRC>;
+        };
+        
+        combo_right_brace {
+            timeout-ms = <50>;
+            key-positions = <15 17>;
+            bindings = <&kp RBRC>;
+        };
+        
+        combo_left_bracket {
+            timeout-ms = <50>;
+            key-positions = <27 28>;
+            bindings = <&kp LBKT>;
+        };
+        
+        combo_right_bracket {
+            timeout-ms = <50>;
+            key-positions = <27 29>;
+            bindings = <&kp RBKT>;
+        };
+        
+        combo_backslash {
+            timeout-ms = <50>;
+            key-positions = <31 32>;
+            bindings = <&kp BSLH>;
+        };
+    };
+};
