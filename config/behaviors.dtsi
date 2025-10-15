@@ -3,55 +3,25 @@
         prvwd: prvwd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(LEFT)>;
+            bindings = <&macro_press &kp LCTRL>
+                     , <&macro_tap &kp LEFT>
+                     , <&macro_release &kp LCTRL>;
         };
         
         nxtwd: nxtwd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(RIGHT)>;
+            bindings = <&macro_press &kp LCTRL>
+                     , <&macro_tap &kp RIGHT>
+                     , <&macro_release &kp LCTRL>;
         };
-        
-        lstrt: lstrt {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp HOME>;
-        };
-        
-        lend: lend {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp END>;
-        };
-        
+
         wdesk_l: wdesk_l {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LG(LC(LEFT))>;
-        };
-        
-        wdesk_r: wdesk_r {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LG(LC(RIGHT))>;
-        };
-        
-        wtab: wtab {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LG(TAB)>;
-        };
-        
-        wnewdesk: wnewdesk {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LG(LC(D))>;
-        };
-        
-        wdeldesk: wdeldesk {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LG(LC(F4))>;
+            bindings = <&macro_press &kp LGUI &kp LCTRL>
+                     , <&macro_tap &kp LEFT>
+                     , <&macro_release &kp LGUI &kp LCTRL>;
         };
     };
 };
