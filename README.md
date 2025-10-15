@@ -88,3 +88,6 @@ to confirm the structure of the keymap. Take a look at the [default keymap](conf
 
 The Ergomech Sofle Hybrid has a 5 way switch on the right side keyboard. The location of the key presses on the 5 way switch are on the last line of the `bindings` section of each layer.
 As long as the correct number of entries exist on that row, the 5 way switch will work. 
+
+### Key position for create combos
+<img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/04d3a168-b1f9-479c-a1a9-59cc1d17ed4e" />
