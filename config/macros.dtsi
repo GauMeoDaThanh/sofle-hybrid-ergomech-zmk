@@ -1,6 +1,5 @@
 prvwd: prvwd {
     compatible = "zmk,behavior-macro";
-    label: "prvwd";
     #binding-cells = <0>;
     bindings = <&macro_press &kp LCTRL>
                 , <&macro_tap &kp LEFT>
@@ -9,7 +8,6 @@ prvwd: prvwd {
 
 nxtwd: nxtwd {
     compatible = "zmk,behavior-macro";
-    label: "nxtwd";
     #binding-cells = <0>;
     bindings = <&macro_press &kp LCTRL>
                 , <&macro_tap &kp RIGHT>
@@ -19,7 +17,6 @@ nxtwd: nxtwd {
 wdesk_l: wdesk_l {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
-    label: "wdesk_l";
     bindings = <&macro_press &kp LGUI &kp LCTRL>
                 , <&macro_tap &kp LEFT>
                 , <&macro_release &kp LGUI &kp LCTRL>;
