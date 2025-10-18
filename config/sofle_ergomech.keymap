@@ -84,8 +84,8 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
-            label = "default";
+        base_layer {
+            label = "base";
 
             // ------------------------------------------------------------------------------------------------------------
             // |   `   |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0   |   -   |
@@ -95,12 +95,12 @@
             //               | GUI | ALT  | CTRL | SPACE|  NAV   |  |  NAV  | ENTER| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp GRAVE   &kp N1    &kp N2    &kp N3     &kp N4     &kp N5   &kp N6     &kp N7     &kp N8        &kp N9    &kp N0    &kp MINUS
-&kp TAB     &kp Q     &kp W     &kp E      &kp R      &kp T    &kp Y      &kp U      &kp I         &kp O     &kp P     &kp BSPC
-&mt CAPS    &kp A     &kp S     &kp D      &kp F      &kp G    &kp H      &kp J      &kp K         &kp L     &kp SEMI  &kp SQT
-&kp LSHFT   &kp Z     &kp X     &kp C      &kp V      &kp B    &kp N      &kp M      &kp COMMA     &kp DOT   &kp FSLH  &kp RSHFT
-&kp C_MUTE  &kp LGUI  &kp LALT  &kp LCTRL  &kp SPACE  &mo NAV  &mo NAV  &kp RET  &kp RCTRL     &kp RALT  &kp RGUI
-                                                               &kp ENTER  &scrl_right  &msc SCRL_UP  &scrl_left  &msc SCRL_DOWN
+&kp GRAVE      &kp N1    &kp N2    &kp N3     &kp N4     &kp N5   &kp N6     &kp N7     &kp N8        &kp N9    &kp N0    &kp MINUS
+&kp TAB        &kp Q     &kp W     &kp E      &kp R      &kp T    &kp Y      &kp U      &kp I         &kp O     &kp P     &kp BSPC
+&mt FUNC CAPS  &kp A     &kp S     &kp D      &kp F      &kp G    &kp H      &kp J      &kp K         &kp L     &kp SEMI  &kp SQT
+&kp LSHFT      &kp Z     &kp X     &kp C      &kp V      &kp B    &kp N      &kp M      &kp COMMA     &kp DOT   &kp FSLH  &kp RSHFT
+&kp C_MUTE     &kp LGUI  &kp LALT  &kp LCTRL  &kp SPACE  &mo NAV  &mo NAV  &kp RET  &kp RCTRL     &kp RALT  &kp RGUI
+                                                                    &kp ENTER  &scrl_right  &msc SCRL_UP  &scrl_left  &msc SCRL_DOWN
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
