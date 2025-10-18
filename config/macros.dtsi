@@ -1,23 +1,12 @@
-prvwd: prvwd {
+SCRL_LEFT: SCRL_LEFT {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
-    bindings = <&macro_press &kp LCTRL>
-                , <&macro_tap &kp LEFT>
-                , <&macro_release &kp LCTRL>;
+    bindings = <&kp LSHFT &msc SCRL_DOWN>;
 };
 
-nxtwd: nxtwd {
+SCRL_RIGHT: SCRL_RIGHT {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
-    bindings = <&macro_press &kp LCTRL>
-                , <&macro_tap &kp RIGHT>
-                , <&macro_release &kp LCTRL>;
+    bindings = <&kp LSHFT &msc SCRL_UP>;
 };
 
-wdesk_l: wdesk_l {
-    compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
-    bindings = <&macro_press &kp LGUI &kp LCTRL>
-                , <&macro_tap &kp LEFT>
-                , <&macro_release &kp LGUI &kp LCTRL>;
-};
