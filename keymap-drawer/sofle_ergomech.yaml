@@ -1,8 +1,70 @@
 layout: {zmk_keyboard: sofle_ergomech}
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, '&mt CAPS', A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
-    Z, X, C, V, B, N, M, ',', ., /, RSHFT, MUTE, LGUI, LALT, LCTRL, SPACE, nav, nav, RET, RCTRL, RALT, RGUI, ENTER, '&scrl_right', '&msc SCRL_UP', '&scrl_left', '&msc
-      SCRL_DOWN']
+  base:
+  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - '-'
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BSPC
+  - {t: CAPS, h: '2'}
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - LSHFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RSHFT
+  - MUTE
+  - LGUI
+  - LALT
+  - LCTRL
+  - SPACE
+  - nav
+  - nav
+  - RET
+  - RCTRL
+  - RALT
+  - RGUI
+  - ENTER
+  - '&scrl_right'
+  - '&msc SCRL_UP'
+  - '&scrl_left'
+  - '&msc SCRL_DOWN'
   nav:
   - '&studio_unlock'
   - F1
@@ -136,7 +198,7 @@ layers:
 combos:
 - p: [0, 1]
   k: ESC
-  l: [default]
+  l: [base]
 - p: [31, 32]
   k: '='
 - p: [27, 28]
