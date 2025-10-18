@@ -1,8 +1,8 @@
 layout: {zmk_keyboard: sofle_ergomech}
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, CAPS, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
-    Z, X, C, V, B, N, M, ',', ., /, RSHFT, MUTE, LGUI, LALT, LCTRL, SPACE, lower, raise, RET, RCTRL, RALT, RGUI, ENTER, RIGHT, '&msc SCRL_UP', LEFT, '&msc SCRL_DOWN']
-  lower:
+  base: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, '&mt CAPS', A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
+    Z, X, C, V, B, N, M, ',', ., /, RSHFT, MUTE, LGUI, LALT, LCTRL, SPACE, nav, nav, RET, RCTRL, RALT, RGUI, ENTER, SCRL RIGHT, '&msc SCRL_UP', SCRL LEFT, '&msc SCRL_DOWN']
+  nav:
   - '&studio_unlock'
   - F1
   - F2
@@ -14,7 +14,7 @@ layers:
   - F8
   - F9
   - F10
-  - '&prvwd'
+  - F11
   - '`'
   - '1'
   - '2'
@@ -67,7 +67,7 @@ layers:
   - C
   - D
   - E
-  raise:
+  function:
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -122,76 +122,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - A
-  - B
-  - C
-  - D
-  - E
-  adjust:
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - EP TOG
-  - RGB HUD
-  - RGB HUI
-  - RGB SAD
-  - RGB SAI
-  - RGB EFF
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - RGB BRD
-  - RGB BRI
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - RGB TOG
-  - ''
-  - ''
-  - ''
-  - ''
-  - {type: held}
-  - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
   - A
   - B
   - C
@@ -200,7 +135,7 @@ layers:
 combos:
 - p: [0, 1]
   k: ESC
-  l: [default]
+  l: [base]
 - p: [31, 32]
   k: '='
 - p: [27, 28]
