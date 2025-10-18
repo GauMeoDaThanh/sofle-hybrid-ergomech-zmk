@@ -97,10 +97,10 @@
             bindings = <
 &kp GRAVE      &kp N1    &kp N2    &kp N3     &kp N4     &kp N5   &kp N6     &kp N7     &kp N8        &kp N9    &kp N0    &kp MINUS
 &kp TAB        &kp Q     &kp W     &kp E      &kp R      &kp T    &kp Y      &kp U      &kp I         &kp O     &kp P     &kp BSPC
-&mt FUNC CAPS  &kp A     &kp S     &kp D      &kp F      &kp G    &kp H      &kp J      &kp K         &kp L     &kp SEMI  &kp SQT
+&lt FUNC CAPS  &kp A     &kp S     &kp D      &kp F      &kp G    &kp H      &kp J      &kp K         &kp L     &kp SEMI  &kp SQT
 &kp LSHFT      &kp Z     &kp X     &kp C      &kp V      &kp B    &kp N      &kp M      &kp COMMA     &kp DOT   &kp FSLH  &kp RSHFT
 &kp C_MUTE     &kp LGUI  &kp LALT  &kp LCTRL  &kp SPACE  &mo NAV  &mo NAV  &kp RET  &kp RCTRL     &kp RALT  &kp RGUI
-                                                                    &kp ENTER  &scrl_right  &msc SCRL_UP  &scrl_left  &msc SCRL_DOWN
+                                                                    &kp ENTER  &msc SCRL_RIGHT  &msc SCRL_UP  &msc SCRL_LEFT  &msc SCRL_DOWN
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -118,7 +118,7 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&studio_unlock     &kp F1     &kp F2     &kp F3    &kp F4    &kp F5     &kp F6     &kp F7    &kp F8     &kp F9     &kp F10   &kp F11
+&studio_unlock     &kp F1     &win_ctrl_left     &kp F3    &win_ctrl_right    &kp F5     &kp F6     &kp F7    &kp F8     &kp F9     &kp F10   &kp F11
 &kp GRAVE  &kp N1     &kp N2     &kp N3    &kp N4    &kp N5     &kp N6     &kp N7    &kp N8     &kp N9     &kp N0    &kp F12
 &trans     &kp EXCL   &kp AT     &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR   &kp RPAR  &kp PIPE
 &trans     &kp EQUAL  &kp MINUS  &kp PLUS  &kp LBRC  &kp RBRC   &kp LBKT   &kp RBKT  &kp SEMI   &kp COLON  &kp BSLH  &trans

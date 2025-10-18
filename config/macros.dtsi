@@ -1,11 +1,15 @@
-scrl_left: scrl_left {
+win_ctrl_right: win_ctrl_right {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
-    bindings = <&kp LSHFT &msc SCRL_DOWN>;
+    bindings = <&macro_press &kp LGUI &kp LCTRL>
+                , <&macro_tap &kp RIGHT>
+                , <&macro_release &kp LGUI &kp LCTRL>;
 };
 
-scrl_right: scrl_right {
+win_ctrl_left: win_ctrl_left {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
-    bindings = <&kp LSHFT &msc SCRL_UP>;
+    bindings = <&macro_press &kp LGUI &kp LCTRL>
+                , <&macro_tap &kp LEFT>
+                , <&macro_release &kp LGUI &kp LCTRL>;
 };
