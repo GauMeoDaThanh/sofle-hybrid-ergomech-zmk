@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - BSPC
-  - {t: CAPS, h: '2'}
+  - {t: CAPS, h: function}
   - A
   - S
   - D
@@ -61,16 +61,16 @@ layers:
   - RALT
   - RGUI
   - ENTER
-  - '&scrl_right'
+  - '&msc SCRL_RIGHT'
   - '&msc SCRL_UP'
-  - '&scrl_left'
+  - '&msc SCRL_LEFT'
   - '&msc SCRL_DOWN'
   nav:
   - '&studio_unlock'
   - F1
-  - F2
+  - '&win_ctrl_left'
   - F3
-  - F4
+  - '&win_ctrl_right'
   - F5
   - F6
   - F7
@@ -155,7 +155,7 @@ layers:
   - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - LALT
   - LCTRL
   - LSHFT
