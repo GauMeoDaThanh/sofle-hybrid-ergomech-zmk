@@ -100,7 +100,7 @@
 &mt CAPS    &kp A     &kp S     &kp D      &kp F      &kp G    &kp H      &kp J      &kp K         &kp L     &kp SEMI  &kp SQT
 &kp LSHFT   &kp Z     &kp X     &kp C      &kp V      &kp B    &kp N      &kp M      &kp COMMA     &kp DOT   &kp FSLH  &kp RSHFT
 &kp C_MUTE  &kp LGUI  &kp LALT  &kp LCTRL  &kp SPACE  &mo NAV  &mo NAV  &kp RET  &kp RCTRL     &kp RALT  &kp RGUI
-                                                               &kp ENTER  &kp scrl_right  &msc SCRL_UP  &kp scrl_left  &msc SCRL_DOWN
+                                                               &kp ENTER  &scrl_right  &msc SCRL_UP  &scrl_left  &msc SCRL_DOWN
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
