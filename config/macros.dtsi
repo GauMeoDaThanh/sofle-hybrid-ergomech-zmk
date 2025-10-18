@@ -1,13 +1,11 @@
-macros {
-    SCRL_LEFT: SCRL_LEFT {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp LSHFT &msc SCRL_DOWN>;
-    };
+scrl_left: scrl_left {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp LSHFT &msc SCRL_DOWN>;
+};
 
-    SCRL_RIGHT: SCRL_RIGHT {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp LSHFT &msc SCRL_UP>;
-    };
+scrl_right: scrl_right {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp LSHFT &msc SCRL_UP>;
 };
