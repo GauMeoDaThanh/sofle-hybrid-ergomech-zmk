@@ -55,7 +55,7 @@ layers:
   - LCTRL
   - SPACE
   - '&td_num'
-  - nav
+  - '&td_num'
   - RET
   - RCTRL
   - RALT
@@ -77,7 +77,7 @@ layers:
   - '&win_tab'
   - '&win_ctrl_right'
   - '&win_new_desk'
-  - '&kc LA(F4)'
+  - AltGr+F4
   - {t: ▽, type: trans}
   - ''
   - '&msc MB1'
@@ -120,7 +120,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -266,13 +266,19 @@ combos:
   l: [base]
 - p: [31, 32]
   k: '='
+  l: [base]
 - p: [27, 28]
   k: '{'
+  l: [base]
 - p: [27, 29]
   k: '}'
+  l: [base]
 - p: [39, 40]
   k: '['
+  l: [base]
 - p: [39, 41]
   k: ']'
+  l: [base]
 - p: [43, 44]
   k: \
+  l: [base]
