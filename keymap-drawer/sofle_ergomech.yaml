@@ -60,7 +60,7 @@ layers:
   - RCTRL
   - RALT
   - RGUI
-  - '&msc MB1'
+  - '&mkp MB1'
   - '&msc SCRL_RIGHT'
   - '&msc SCRL_UP'
   - '&msc SCRL_LEFT'
@@ -80,9 +80,9 @@ layers:
   - AltGr+F4
   - {t: ▽, type: trans}
   - ''
-  - '&msc MB1'
-  - '&msc MOVE_UP'
-  - MB2
+  - '&mkp MB1'
+  - '&mmv MOVE_UP'
+  - '&mkp MB2'
   - ''
   - PG UP
   - '&prev_word'
@@ -92,9 +92,9 @@ layers:
   - BSPC
   - Ctl+Y
   - Ctl+A
-  - '&msc MOVE_LEFT'
-  - '&msc MOVE_DOWN'
-  - '&msc MOVE_RIGHT'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
   - '%'
   - PG DN
   - LEFT
@@ -104,9 +104,9 @@ layers:
   - '&del_line'
   - LSHFT
   - Ctl+Z
-  - Ctl+x
+  - Ctl+X
   - Ctl+C
-  - Ctl+B
+  - Ctl+V
   - ''
   - ''
   - '&line_start'
@@ -125,11 +125,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&msc MB1'
-  - '&msc MOVE_RIGHT'
-  - '&msc MOVE_UP'
-  - '&msc MOVE_LEFT'
-  - '&msc MOVE_DOWN'
+  - '&mkp MB1'
+  - '&mmv MOVE_RIGHT'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
   function:
   - F1
   - F2
