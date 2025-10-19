@@ -25,7 +25,7 @@
     //conditional_layers {
     //    compatible = "zmk,conditional-layers";
     //
-    //    adjust_layer {
+    //    adjust_layer {fds{s[xvxcvxvxvxsfsf{{{f}}}]}
     //        if-layers = <LOWER RAISE>;
     //        then-layer = <ADJUST>;
     //    };
@@ -45,6 +45,8 @@
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+
+            tap-ms = <20>;
         };
     };
 
@@ -138,7 +140,7 @@
                                                                                                 &mkp MB1      &mmv MOVE_RIGHT     &mmv MOVE_UP      &mmv MOVE_LEFT      &mmv MOVE_DOWN
             >;
 
-            sensor-bindings = <&scroll_encoder>, <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&scroll_encoder &inc_dec_kp PG_UP PG_DN>;
         };
 
         function_layer {
