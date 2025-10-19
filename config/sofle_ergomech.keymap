@@ -140,7 +140,7 @@
                                                                                                 &mkp MB1      &mmv MOVE_RIGHT     &mmv MOVE_UP      &mmv MOVE_LEFT      &mmv MOVE_DOWN
             >;
 
-            sensor-bindings = <&encoder_scroll &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&encoder_scroll>;
         };
 
         function_layer {
