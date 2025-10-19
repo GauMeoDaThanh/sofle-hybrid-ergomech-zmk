@@ -13,3 +13,65 @@ win_ctrl_left: win_ctrl_left {
                 , <&macro_tap &kp LEFT>
                 , <&macro_release &kp LGUI &kp LCTRL>;
 };
+
+win_tab: win_tab {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp LGUI>
+                , <&macro_tap &kp TAB>
+                , <&macro_release &kp LGUI>;
+};
+
+win_new_desk: win_new_desk {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp LGUI &kp LCTRL>
+                , <&macro_tap &kp D>
+                , <&macro_release &kp LGUI &kp LCTRL>;
+};
+
+win_del_desk: win_del_desk {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp LGUI &kp LCTRL>
+                , <&macro_tap &kp F4>
+                , <&macro_release &kp LGUI &kp LCTRL>;
+};
+
+del_line: del_line {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&macro_tap &kp HOME>
+             , <&macro_press &kp LSHFT>
+             , <&macro_tap &kp END>
+             , <&macro_release &kp LSHFT>
+             , <&macro_tap &kp DEL>;
+};
+
+line_start: line_start {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&macro_tap &kp HOME>;
+};
+
+line_end: line_end {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&macro_tap &kp END>;
+};
+
+prev_word: prev_word {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp LCTRL>
+                , <&macro_tap &kp LEFT>
+                , <&macro_release &kp LCTRL>;
+};
+
+next_word: next_word {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp LCTRL>
+                , <&macro_tap &kp RIGHT>
+                , <&macro_release &kp LCTRL>;
+};
