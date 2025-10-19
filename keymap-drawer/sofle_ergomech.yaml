@@ -108,7 +108,7 @@ layers:
   - Ctl+V
   - none
   - '}'
-  - none
+  - ''
   - '&line_start'
   - ''
   - '&line_end'
