@@ -133,7 +133,7 @@
 
             bindings = <
 &studio_unlock  &win_del_desk  &win_ctrl_left  &win_tab         &win_ctrl_right  &win_new_desk        &win_del_desk  &win_ctrl_left  &win_tab   &win_ctrl_right  &win_new_desk   &kp RA(F4)
-&trans          &none          &mkp MB1        &mmv MOVE_UP     &mkp MB2          &none                &kp PG_UP      &prev_word      &kp UP     &next_word       &kp LC(BSPC)    &kp BSPC
+&trans          &none          &mkp MB1        &mmv MOVE_UP     &mkp MB2         &none                &kp PG_UP      &prev_word      &kp UP     &next_word       &kp LC(BSPC)    &kp BSPC
 &kp LC(Y)       &kp LC(A)      &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &kp PRCNT            &kp PG_DN      &kp LEFT        &kp DOWN   &kp RIGHT        &kp DEL         &del_line
 &kp LSHFT       &kp LC(Z)      &kp LC(X)       &kp LC(C)        &kp LC(V)        &none                &none          &line_start     &none      &line_end        &none           &trans
 &trans          &trans         &trans          &trans           &trans           &trans               &trans         &trans          &trans     &trans           &trans
