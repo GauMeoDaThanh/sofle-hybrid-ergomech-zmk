@@ -83,7 +83,7 @@ layers:
   - '&msc MB1'
   - '&msc MOVE_UP'
   - MB2
-  - '5'
+  - ''
   - PG UP
   - '&prev_word'
   - UP
@@ -104,10 +104,10 @@ layers:
   - '&del_line'
   - LSHFT
   - Ctl+Z
+  - Ctl+x
   - Ctl+C
-  - Ctl+V
+  - Ctl+B
   - ''
-  - '}'
   - ''
   - '&line_start'
   - ''
