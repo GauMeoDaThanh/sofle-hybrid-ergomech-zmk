@@ -106,7 +106,7 @@ layers:
   - Ctl+Z
   - Ctl+C
   - Ctl+V
-  - none
+  - ''
   - '}'
   - ''
   - '&line_start'
