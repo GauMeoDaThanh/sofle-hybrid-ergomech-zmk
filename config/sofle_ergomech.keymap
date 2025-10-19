@@ -5,7 +5,7 @@
  */
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // default: 600
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1600  // default: 600
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
@@ -37,7 +37,7 @@
         td_num: tap_dance_num {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <100>;
             bindings = <&mo NAV &mo NUMP>;
         };
 
@@ -45,8 +45,6 @@
             compatible = "zmk,behavior-sensor-rotate-var";
             #sensor-binding-cells = <2>;
             bindings = <&msc>, <&msc>;
-
-            tap-ms = <20>;
         };
     };
 
