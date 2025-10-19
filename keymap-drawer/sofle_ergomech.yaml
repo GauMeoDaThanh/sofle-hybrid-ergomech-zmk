@@ -107,7 +107,7 @@ layers:
   - Ctl+X
   - Ctl+C
   - Ctl+V
-  - '%'
+  - PSCRN
   - ''
   - '&line_start'
   - ''
@@ -245,16 +245,16 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - KP 0
-  - KP DOT
-  - KP ENTER
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - KP 0
   - KP DOT
   - KP ENTER
   - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - KP 0
+  - KP DOT
+  - KP ENTER
   - ''
   - ''
   - ''
