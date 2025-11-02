@@ -125,7 +125,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB1'
+  - Ctl+Sft+.
   - '&mmv MOVE_RIGHT'
   - '&mmv MOVE_UP'
   - '&mmv MOVE_LEFT'
@@ -270,13 +270,13 @@ combos:
 - p: [27, 28]
   k: '{'
   l: [base]
-- p: [27, 29]
+- p: [28, 29]
   k: '}'
   l: [base]
 - p: [39, 40]
   k: '['
   l: [base]
-- p: [39, 41]
+- p: [40, 41]
   k: ']'
   l: [base]
 - p: [43, 44]
