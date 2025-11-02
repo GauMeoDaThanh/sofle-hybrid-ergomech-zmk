@@ -94,7 +94,7 @@ layers:
   - Ctl+A
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
+  - '&td_search'
   - '&msc SCRL_DOWN'
   - PG DN
   - LEFT
@@ -125,7 +125,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+Sft+.
+  - '&mkp MB1'
   - '&mmv MOVE_RIGHT'
   - '&mmv MOVE_UP'
   - '&mmv MOVE_LEFT'
