@@ -55,7 +55,7 @@
             #binding-cells = <0>;
             tapping-term-ms = <150>;
             bindings = <&mmv MOVE_RIGHT &kp LC(LS(DOT))>;
-        }
+        };
     };
 
     combos {
