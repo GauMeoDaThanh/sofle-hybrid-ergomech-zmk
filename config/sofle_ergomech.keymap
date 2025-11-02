@@ -51,7 +51,7 @@
         };
 
         td_search: tap_dance_search_function {
-            compatible = "zmk, behavior-tap-dance";
+            compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <150>;
             bindings = <&mmv MOVE_RIGHT &kp LC(LS(DOT))>;
