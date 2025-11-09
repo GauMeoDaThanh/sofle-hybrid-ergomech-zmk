@@ -49,13 +49,6 @@
             tapping-term-ms = <150>;
             bindings = <&mo NAV &mo NUMP>;
         };
-
-        td_search: tap_dance_search_function {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <150>;
-            bindings = <&mmv MOVE_RIGHT &kp LC(LS(DOT))>;
-        };
     };
 
     combos {
@@ -77,30 +70,30 @@
         
         combo_left_brace {
             timeout-ms = <50>;
-            key-positions = <27 28>;
+            key-positions = <39 40>;  
             bindings = <&kp LBRC>;
             layers = <0>;
         };
         
         combo_right_brace {
             timeout-ms = <50>;
-            key-positions = <28 29>;
+            key-positions = <39 40>;
             bindings = <&kp RBRC>;
-            layers = <0>;
+            layers = <1>;
         };
         
         combo_left_bracket {
             timeout-ms = <50>;
-            key-positions = <39 40>;
+            key-positions = <27 28>;
             bindings = <&kp LBKT>;
             layers = <0>;
         };
         
         combo_right_bracket {
             timeout-ms = <50>;
-            key-positions = <40 41>;
+            key-positions = <27 28>;
             bindings = <&kp RBKT>;
-            layers = <0>;
+            layers = <1>;
         };
         
         combo_backslash {
@@ -142,8 +135,8 @@
             bindings = <
 &studio_unlock  &win_del_desk  &win_ctrl_left  &win_tab         &win_ctrl_right  &win_new_desk        &win_del_desk  &win_ctrl_left  &win_tab   &win_ctrl_right  &win_new_desk   &kp RA(F4)
 &trans          &none          &mkp MB1        &mmv MOVE_UP     &mkp MB2         &msc SCRL_UP         &kp PG_UP      &prev_word      &kp UP     &next_word       &kp LC(BSPC)    &kp BSPC
-&kp LC(Y)       &kp LC(A)      &mmv MOVE_LEFT  &mmv MOVE_DOWN   &td_search       &msc SCRL_DOWN       &kp PG_DN      &kp LEFT        &kp DOWN   &kp RIGHT        &kp DEL         &del_line
-&kp LSHFT       &kp LC(Z)      &kp LC(X)       &kp LC(C)        &kp LC(V)        &kp PSCRN            &none          &line_start     &none      &line_end        &none           &trans
+&kp LC(Y)       &kp LC(A)      &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &msc SCRL_DOWN       &kp PG_DN      &kp LEFT        &kp DOWN   &kp RIGHT        &kp DEL         &del_line
+&kp LSHFT       &kp LC(Z)      &kp LC(X)       &kp LC(C)        &kp LC(V)        &kp LC(LS(DOT))      &none          &line_start     &none      &line_end        &none           &trans
 &trans          &trans         &trans          &trans           &trans           &trans               &trans         &trans          &trans     &trans           &trans
                                                                                                 &mkp MB1      &mmv MOVE_RIGHT     &mmv MOVE_UP      &mmv MOVE_LEFT      &mmv MOVE_DOWN
             >;
