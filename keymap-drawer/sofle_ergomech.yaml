@@ -94,7 +94,7 @@ layers:
   - Ctl+A
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
-  - '&td_search'
+  - '&mmv MOVE_RIGHT'
   - '&msc SCRL_DOWN'
   - PG DN
   - LEFT
@@ -107,7 +107,7 @@ layers:
   - Ctl+X
   - Ctl+C
   - Ctl+V
-  - PSCRN
+  - Ctl+Sft+.
   - ''
   - '&line_start'
   - ''
@@ -267,18 +267,18 @@ combos:
 - p: [31, 32]
   k: '='
   l: [base]
-- p: [27, 28]
+- p: [39, 40]
   k: '{'
   l: [base]
-- p: [28, 29]
-  k: '}'
-  l: [base]
 - p: [39, 40]
+  k: '}'
+  l: [nav]
+- p: [27, 28]
   k: '['
   l: [base]
-- p: [40, 41]
+- p: [27, 28]
   k: ']'
-  l: [base]
+  l: [nav]
 - p: [43, 44]
   k: \
   l: [base]
