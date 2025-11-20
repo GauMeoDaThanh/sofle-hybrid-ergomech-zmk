@@ -85,9 +85,9 @@ layers:
   - '&mkp MB2'
   - '&msc SCRL_UP'
   - PG UP
-  - '&prev_word'
+  - Ctl+LEFT
   - UP
-  - '&next_word'
+  - Ctl+RIGHT
   - Ctl+BSPC
   - BSPC
   - Ctl+Y
@@ -109,9 +109,9 @@ layers:
   - Ctl+V
   - Ctl+Sft+.
   - ''
-  - '&line_start'
+  - HOME
   - ''
-  - '&line_end'
+  - END
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
