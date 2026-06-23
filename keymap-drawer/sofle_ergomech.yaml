@@ -69,12 +69,12 @@ layers:
   - '&studio_unlock'
   - '&win_del_desk'
   - '&win_ctrl_left'
-  - '&win_tab'
+  - Gui+G
   - '&win_ctrl_right'
   - '&win_new_desk'
   - '&win_del_desk'
   - '&win_ctrl_left'
-  - '&win_tab'
+  - Gui+G
   - '&win_ctrl_right'
   - '&win_new_desk'
   - AltGr+F4
