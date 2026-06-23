@@ -77,9 +77,9 @@
         
         combo_right_brace {
             timeout-ms = <50>;
-            key-positions = <39 40>;
+            key-positions = <40 41>;
             bindings = <&kp RBRC>;
-            layers = <1>;
+            layers = <0>;
         };
         
         combo_left_bracket {
@@ -91,9 +91,9 @@
         
         combo_right_bracket {
             timeout-ms = <50>;
-            key-positions = <27 28>;
+            key-positions = <28 29>;
             bindings = <&kp RBKT>;
-            layers = <1>;
+            layers = <0>;
         };
         
         combo_backslash {
